@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Battleship .block {
+  width: 7%;
+  background-color: #000;
+  border: white solid 1px;
+  height: 40px;
+}
+
+.Battleship [class^="row"] {
+  display: flex;
+  justify-content: center;
+}
+
+.territory {
+  background-color: black !important;
+}
+
+.killed {
+  background-color: red !important;
+}
+
+.player1 {
+  background-color: blue !important;
+}
+
+.player2 {
+  background-color: orange !important;
+}
+
+.board {
+  height: 180px;
+  box-sizing: border-box;
+  width: 100vw;
+  align-items: center;
+  display: flex;
+  margin: auto;
+}
+
+.turn,
+.scorecard,
+.hint {
+  float: left;
+  width: 32%;
+  padding: 5px;
+}
